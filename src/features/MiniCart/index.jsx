@@ -139,14 +139,14 @@ function CartFeature(props) {
                   className={classes.icon}
                 ></Badge>
                 <Typography variant="span" fontSize="15px" marginLeft="10px">
-                  sản phẩmmmmmmmmmmmmmm
+                  sản phẩmmmmmmmmmmmmmmm
                 </Typography>
                 )
               </Box>
               <Box className={classes.textField}>
                 <Typography>Đơn Giá</Typography>
                 <Typography>Số lượng</Typography>
-                <Typography>Thành Tiền</Typography>
+                <Typography>Thành Tiềnnnnnnnnnn</Typography>
               </Box>
               <Typography variant="span">
                 <DeleteForeverIcon />
