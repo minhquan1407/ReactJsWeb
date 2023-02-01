@@ -33,12 +33,12 @@ import StorageKeys from '../../constants/storage-keys';
         const data = await userApi.login(payload);// payload đây chính là thông tin mà user nhập vào cái form
 
     //save data to local storage
-    localStorage.setItem(StorageKeys.TOKEN, data.jwt); //StorageKeys là tên object còn TOKEN là hằng số
+    localStorage.setItem(StorageKeys.TOKEN, data.jwt); //StorageKeys là tên object còn tttTOKEN là hằng số
     localStorage.setItem(StorageKeys.USER, JSON.stringify(data.user));
     //return user data
  
 
-    return data.user;//data.user chính là cái object
+    return data.user;//data.user chính là cái objecteqweqweqw
     }
   );
 
@@ -48,7 +48,6 @@ const userSlice = createSlice({
         current: JSON.parse(localStorage.getItem(StorageKeys.USER)) || {},
         setting: {},
     },
-
     reducers: {
         logout(state) {
             localStorage.removeItem(StorageKeys.USER);
