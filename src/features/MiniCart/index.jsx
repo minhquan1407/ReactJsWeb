@@ -144,9 +144,9 @@ function CartFeature(props) {
                 )
               </Box>
               <Box className={classes.textField}>
-                <Typography>Đơn Giaiá</Typography>
-                <Typography>Số lượnggggg</Typography>
-                <Typography>Thành Tiềnn</Typography>
+                <Typography>Đơn Giá</Typography>
+                <Typography>Số lượngg</Typography>
+                <Typography>Thành Tiềnss</Typography>
               </Box>
               <Typography variant="span">
                 <DeleteForeverIcon />
