@@ -129,7 +129,7 @@ function CartFeature(props) {
             <Paper elevation={0} className={classes.boxField}>
               <Box className={classes.leftItem}>
                 <Typography variant="span" fontSize="1.2rem" fontWeight="500" lineHeight="50px">
-                  Tất cảaaaaaaaaaa
+                  Tất cảaadasdasdasdqwewqewq
                 </Typography>
                 (
                 <Badge
