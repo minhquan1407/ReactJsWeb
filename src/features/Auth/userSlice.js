@@ -48,7 +48,6 @@ const userSlice = createSlice({
         current: JSON.parse(localStorage.getItem(StorageKeys.USER)) || {},
         setting: {},
     },
-
     reducers: {
         logout(state) {
             localStorage.removeItem(StorageKeys.USER);
