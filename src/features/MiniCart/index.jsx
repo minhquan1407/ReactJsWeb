@@ -144,8 +144,8 @@ function CartFeature(props) {
                 )
               </Box>
               <Box className={classes.textField}>
-                <Typography>Đơn Giá</Typography>
-                <Typography>Số lượng</Typography>
+                <Typography>Đơn Giaiiiiiiiiá</Typography>
+                <Typography>Số lượnggggggggggggggg</Typography>
                 <Typography>Thành Tiềnnnnnnnnnn</Typography>
               </Box>
               <Typography variant="span">
